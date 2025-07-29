@@ -1,4 +1,4 @@
-# 📚 Study Timer (Arduino Version)
+# 📚 AI Study Timer (Arduino Version)
 
 **2025 가천대학교 과학영재교육원 정보융합 분야 산출물**
 
