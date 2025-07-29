@@ -42,6 +42,15 @@ void loop() {
       totalTime += millis() - startTime;
       state = PAUSED;
     }
+    else {
+      // 비정상 상태 처리: RUNNING 상태에서 다시 시작 버튼을 누른 경우
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Error: Already");
+      lcd.setCursor(0, 1);
+      lcd.print("Running");
+      delay(700);
+    }
     delay(200);
   }
 
